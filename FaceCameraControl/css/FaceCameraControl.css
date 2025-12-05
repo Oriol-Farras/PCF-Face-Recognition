@@ -1,0 +1,15 @@
+.face-camera-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    overflow: hidden;
+}
+
+canvas {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
