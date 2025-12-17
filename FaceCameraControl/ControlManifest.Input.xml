@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <manifest>
-  <control namespace="Contoso.Controls" constructor="FaceCameraControl" version="1.0.0" display-name-key="FaceCameraControl" description-key="FaceCameraControl description" control-type="standard">
+  <control namespace="Register" constructor="FaceCameraControl" version="1.0.0" display-name-key="FaceCameraControl" description-key="FaceCameraControl description" control-type="standard">
     <!-- INPUTS / OUTPUTS -->
     <property name="ImageBase64" display-name-key="OutputImage" description-key="Base64 Image" of-type="SingleLine.Text" usage="bound" required="false" />
     <property name="FaceDetected" display-name-key="FaceDetected" description-key="True if face is valid" of-type="TwoOptions" usage="bound" required="false" />
